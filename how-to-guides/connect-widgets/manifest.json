@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.0.2",
+  "metadata": {
+    "appmode": "static",
+    "primary_rmd": null,
+    "primary_html": "Widgets Template/Widgets-Template.html",
+    "content_category": null,
+    "has_parameters": false
+  },
+  "packages": null,
+  "files": {
+    "Widgets Template/.DS_Store": {
+      "checksum": "7c7dcd0eade9fef37e54664b6674f683"
+    },
+    "Widgets Template/connect-widgets.png": {
+      "checksum": "5df6725871ca8bfe3cc56573f11c4ca3"
+    },
+    "Widgets Template/python-banner.png": {
+      "checksum": "cfdccba2129fbc319f7ec537637d6ae3"
+    },
+    "Widgets Template/rsconnect/.DS_Store": {
+      "checksum": "a660905df7188b613f28b488df225509"
+    },
+    "Widgets Template/rsconnect/documents/.DS_Store": {
+      "checksum": "d7d08680f346ffa557e0b6f26da36daa"
+    },
+    "Widgets Template/rsconnect/documents/Widgets Template.Rmd/colorado.rstudio.com/ashley/widgets_dashboard.dcf": {
+      "checksum": "0775eefae5519002eec58e089f4f71af"
+    },
+    "Widgets Template/Widgets Template.Rmd": {
+      "checksum": "3a87ff16e96e98616b9220fddfb231b3"
+    },
+    "Widgets Template/Widgets-Template.html": {
+      "checksum": "06c3b6ac7f58ea51057b842aec3580e0"
+    }
+  },
+  "users": null
+}
