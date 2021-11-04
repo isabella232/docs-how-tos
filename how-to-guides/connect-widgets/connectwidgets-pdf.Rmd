@@ -47,7 +47,7 @@ This guide walks you through:
 * installing `connectwidgets`{.R}
 * updating the `connectwidgets`{.R} template and deploying to Connect
 * adding custom CSS
-* configuring a vanity URL for your `connectwidget`{.R} dashboard
+* configuring a vanity URL for your `connectwidgets`{.R} dashboard
 * configuring `RootRedirect`{.R} so your audience is automatically redirected to your `connectwidgets`{.R} dashboard 
 
 ## Requirements
@@ -132,7 +132,7 @@ Additionally, you can configure a theme, add custom CSS, and select the componen
 
 ![Knitted output of `connectwidgets` template](template_files/knit_template.png){width=20%}
 
-**Why aren't the thumbnails of the content displaying?**
+**Why aren't the thumbnails of the content displayed?**
 
 Unfortunately, the thumbnails for the content will not display in development because:
      
@@ -181,7 +181,7 @@ output:
 
 a. Select the content to use/display by adding two helper functions to select content: `by_tag`{.R} and `by_owner`{.R}:
   + Assuming that you don't want to display a random set of content, for this example, we are going to filter by content tagged as "Python" and owned by user "kelly".
-  + Delete the `table`{.R} and `search & filter`{.R} component entries from your template. Now, only the `card`{.R} and `grid`{.R} components display.
+  + Delete the `table`{.R} and `search & filter`{.R} component entries from your template. Now, only the `card`{.R} and `grid`{.R} components are displayed.
 b. You may also replace the stock image with an image of your own.
 c. Additionally, customize the headers for each component.
 
@@ -301,7 +301,7 @@ To learn more, see the [Custom Content URL](https://docs.rstudio.com/connect/use
 
 **Requires Role: Administrator**
 
-This section has procedures that require you to have administrative privileges to edit the RStudio Connect configuration. If you have not been granted these privileges, please coordinate someone in your organization that is an administrator.
+This section has procedures that require you to have administrative privileges to edit the RStudio Connect configuration. If you have not been granted these privileges, please coordinate with someone in your organization that is an administrator.
 
 * Navigate to the
 `/etc/rstudio-connect/rstudio-connect.gcfg` file.
