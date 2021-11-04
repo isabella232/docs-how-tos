@@ -345,3 +345,17 @@ systemctl restart rstudio-connect
 ```
 
 * Now, open a browser and navigate to your Connect server's IP using the `DashboardPath` that you configured above: http://<span></span>your-connect-server-address:3939/connect/dashboard/
+
+# Where do I go from here?
+
+At this point, you know what `connectwidgets` is, whether it will be useful for your workflow, and how to implement it. What's next?
+
+As you try `connectwidgets` on your own, here is a list of resources that may be helpful as you implement `connectwidgets`:
+
+- The `connectwidgets` site has content that walks you through installation, implementation, and provides code examples for you to copy/paste into your own project: https://rstudio.github.io/connectwidgets/
+- RStudio's Kelly O'Briant introduces `connectwidgets` in the RStudio Connect 1.9.0 - Content Curation Tools blog announcement here: https://blog.rstudio.com/2021/07/29/rstudio-connect-1-9-0/
+- CRAN hosts a comprehensive package document about `connectwidgets`: https://cran.r-project.org/web/packages/connectwidgets/connectwidgets.pdf
+- The Configuration section of the RStudio Connect Admin Guide Appendix covers `RootRedirect` and `DashboardPath`: https://docs.rstudio.com/connect/admin/appendix/configuration/#Server
+- The RStudio Connect User Guide covers Custom Content URL: https://docs.rstudio.com/connect/user/content-settings/#custom-urld
+
+Any issues? Let us know here: https://github.com/rstudio/connectwidgets/issues/
