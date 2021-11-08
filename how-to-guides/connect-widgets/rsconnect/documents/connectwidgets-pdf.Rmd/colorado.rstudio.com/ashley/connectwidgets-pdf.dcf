@@ -5,9 +5,9 @@ account: ashley
 server: colorado.rstudio.com
 hostUrl: https://colorado.rstudio.com/rsc/__api__
 appId: 10226
-bundleId: 50135
+bundleId: 50323
 url: https://colorado.rstudio.com/rsc/widgets/
-when: 1636040847.19551
-lastSyncTime: 1636040847.19552
+when: 1636401795.61579
+lastSyncTime: 1636401795.6158
 asMultiple: FALSE
 asStatic: TRUE
